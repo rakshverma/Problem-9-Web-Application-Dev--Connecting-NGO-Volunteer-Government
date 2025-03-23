@@ -7,6 +7,7 @@ import NgoDashboard from './Components/NgoDashboard';
 import GovernmentDashboard from './Components/GovernmentDashboard';
 import Profile from './Components/Profile';
 import { jwtDecode } from 'jwt-decode';
+import Search from "./Components/Search";
 
 // ✅ Protected route component with user ID and role extraction
 const ProtectedRoute = ({ children, allowedRoles = [] }) => {
@@ -70,6 +71,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
 
         {/* ✅ Generic dashboard (redirects based on role) */}
+        <Route path="/volunteer/:userId/dashboard/search" element={<Search />} />
+
         <Route
           path="/dashboard"
           element={
