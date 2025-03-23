@@ -93,6 +93,10 @@ MongoDB is required for data storage. Install MongoDB using the steps below:
 ```bash
 cd Backend
 ```
+### Install dependencies
+```bash
+npm install
+```
 ```bash
 node app.js
 ```
