@@ -97,6 +97,7 @@ cd Backend
 ```bash
 npm install
 ```
+### RUN
 ```bash
 node app.js
 ```
