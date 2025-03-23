@@ -74,3 +74,25 @@ npm install
 ```bash
 npm run dev
 ```
+
+### MongoDB Installation - 
+Follow these steps to **install MongoDB, clone, set up, and run the CONNECT4CHANGE platform** on your local system.  
+
+### 🔧 **Step 1: Install MongoDB**  
+MongoDB is required for data storage. Install MongoDB using the steps below:
+
+#### 📌 **For Windows**  
+1. Download MongoDB Community Edition from [MongoDB Official Website](https://www.mongodb.com/try/download/community).  
+2. Install it by following the setup wizard.  
+3. Start the MongoDB service:  
+   ```powershell
+   net start MongoDB
+   ```
+
+### FOR BACKEND - (MongoDB Should be installed)
+```bash
+cd Backend
+```
+```bash
+node app.js
+```
