@@ -1,5 +1,5 @@
 Deployed WebSite
-https://frontend-jzigqudw2-wsitervs-projects.vercel.app/
+https://frontend-wsitervs-projects.vercel.app/
 
 # 🌍 CONNECT4CHANGE – Web Platform for Crowdsourced Social Good Projects  
 
